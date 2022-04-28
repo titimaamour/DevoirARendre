@@ -5,7 +5,7 @@ public class Documents {
 	private int numEnreg;
 	private String titre;
 	
-	public Documents(String titre)
+	public Documents(int numEnreg,String titre)
 	{
 	this.numEnreg = numeroSuivant;
 	numeroSuivant++;

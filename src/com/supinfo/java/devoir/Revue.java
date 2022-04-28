@@ -5,8 +5,8 @@ public class Revue extends Documents {
 	private int annee;
 	
 	
-	public Revue(String titre, int mois, int annee) {
-		super(titre);
+	public Revue(int numEnreg,String titre, int mois, int annee) {
+		super(numEnreg,titre);
 		
 		this.mois = mois;
 		this.annee = annee;

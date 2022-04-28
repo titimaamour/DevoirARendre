@@ -5,9 +5,9 @@ public class Livre extends Documents {
 	private String auteur;
 	private int nbrPages;
 	
-	public Livre(String titre, String auteur, int nbrPages) {
+	public Livre(int numEnreg,String titre, String auteur, int nbrPages) {
 	
-		super(titre);
+		super(numEnreg,titre);
 	
 	this.nbrPages = nbrPages;
 	this.auteur = auteur;

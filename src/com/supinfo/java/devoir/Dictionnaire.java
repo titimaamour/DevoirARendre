@@ -12,8 +12,8 @@ public class Dictionnaire extends Documents {
 		this.langue = langue;
 	}
 
-	public Dictionnaire(String titre,  String langue) {
-	super(titre);
+	public Dictionnaire(int numEnreg,String titre,  String langue) {
+	super(numEnreg,titre);
 	
 	this.langue = langue;
 	}
